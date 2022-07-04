@@ -80,7 +80,7 @@ public class clientSide implements play
 				}
 				else
 				{
-					client.getCurrentStream();
+					System.out.println(client.getCurrentStream());
 				}
 			}
 			else if(input.equalsIgnoreCase("c"))
